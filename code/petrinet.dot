@@ -1,0 +1,27 @@
+digraph M {
+rankdir = LR;
+t1[shape=box]
+t2[shape=box]
+t3[shape=box]
+t4[shape=box]
+t5[shape=box]
+t6[shape=box]
+p1->t1
+t1->p2
+p2->t2
+t2->p3
+p3->t3
+t3->p1
+t3->p7
+p4->t4
+t4->p5
+p5->t5
+t5->p6
+p6->t6
+t6->p4
+t6->p7
+p7->t1
+p7->t4
+p1[color="#FF0000", style=filled]
+p2[color="#FF0000", style=filled]
+}
